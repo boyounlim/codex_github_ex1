@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개발자 포트폴리오 | 홍길동</title>
+    <meta
+      name="description"
+      content="문제를 끝까지 해결하는 개발자 홍길동의 포트폴리오입니다."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 바로 이동</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#about">Hong Gil-dong</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="visually-hidden">메뉴 열기</span>
+          메뉴
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+          <ul>
+            <li><a href="#about">소개</a></li>
+            <li><a href="#skills">기술스택</a></li>
+            <li><a href="#projects">프로젝트</a></li>
+            <li><a href="#experience">경험</a></li>
+            <li><a href="#contact">연락처</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="about" class="section hero reveal" data-reveal>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Problem Solver · Developer</p>
+            <h1>문제를 끝까지 해결하는 개발자, 홍길동입니다.</h1>
+            <p class="hero-desc">
+              사용자 관점에서 문제를 정의하고, 빠른 실험과 안정적인 구현으로
+              결과를 만드는 것을 좋아합니다. 백엔드와 프론트엔드를 함께 다루며
+              팀의 생산성을 높이는 개발을 지향합니다.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="mailto:you@example.com"
+                >이메일 보내기</a
+              >
+              <a
+                class="btn btn-secondary"
+                href="https://github.com/your-github"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub 보기</a
+              >
+            </div>
+            <p class="guide">
+              교체 가이드: 이름, 소개 문구, 버튼 링크를 본인 정보로 수정하세요.
+            </p>
+          </div>
+          <figure class="profile-card">
+            <img
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23d8efe8'/%3E%3Cstop offset='1' stop-color='%23f8ddd0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='480' fill='url(%23g)'/%3E%3Ccircle cx='320' cy='160' r='92' fill='%230f766e'/%3E%3Crect x='168' y='282' width='304' height='132' rx='66' fill='%23198f84'/%3E%3C/svg%3E"
+              alt="프로필 이미지 자리표시자"
+            />
+            <figcaption>프로필 이미지 교체 위치</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal" data-reveal>
+        <div class="container">
+          <div class="section-head">
+            <h2>기술스택</h2>
+            <p>현재 실무/학습에 사용하는 기술을 영역별로 정리했습니다.</p>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <h3>언어</h3>
+              <ul class="chip-list">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Python</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h3>프론트엔드</h3>
+              <ul class="chip-list">
+                <li>React</li>
+                <li>HTML/CSS</li>
+                <li>Vite</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h3>백엔드</h3>
+              <ul class="chip-list">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h3>협업/운영</h3>
+              <ul class="chip-list">
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>CI/CD</li>
+              </ul>
+            </article>
+          </div>
+          <p class="guide">
+            교체 가이드: 사용 기술만 남기고, 숙련도 높은 항목을 앞쪽에 배치하세요.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-tint reveal" data-reveal>
+        <div class="container">
+          <div class="section-head">
+            <h2>프로젝트</h2>
+            <p>문제 정의부터 배포까지 담당한 대표 작업을 정리했습니다.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-status">대표 프로젝트</p>
+              <h3>프로젝트 제목 01</h3>
+              <p>사용자 이탈 구간을 분석해 전환율을 개선한 웹 서비스.</p>
+              <ul class="chip-list">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <p class="project-status">팀 프로젝트</p>
+              <h3>프로젝트 제목 02</h3>
+              <p>대시보드 렌더링 성능을 개선해 로딩 시간을 단축한 작업.</p>
+              <ul class="chip-list">
+                <li>TypeScript</li>
+                <li>Next.js</li>
+                <li>Redis</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <p class="project-status">개인 프로젝트</p>
+              <h3>프로젝트 제목 03</h3>
+              <p>반복 업무를 자동화해 팀 운영 시간을 절감한 내부 도구.</p>
+              <ul class="chip-list">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Docker</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </article>
+          </div>
+          <p class="guide">
+            교체 가이드: 프로젝트마다 문제, 해결, 성과를 한 문장씩 넣어주세요.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal" data-reveal>
+        <div class="container">
+          <div class="section-head">
+            <h2>경험</h2>
+            <p>성장 과정과 주요 성과를 시간 순으로 정리했습니다.</p>
+          </div>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <h3>회사/팀명 또는 활동명</h3>
+              <p class="meta">2024.01 - 현재 · 백엔드 개발자</p>
+              <p>
+                API 응답 구조 표준화와 모니터링 체계를 구축해 장애 대응 시간을
+                단축했습니다.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h3>회사/팀명 또는 활동명</h3>
+              <p class="meta">2022.07 - 2023.12 · 프론트엔드 개발자</p>
+              <p>
+                공통 컴포넌트와 디자인 토큰을 정리해 화면 개발 리드타임을
+                줄였습니다.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h3>교육/부트캠프/학위</h3>
+              <p class="meta">2021.03 - 2022.06 · 수료/졸업</p>
+              <p>프로젝트 기반 학습으로 실무 협업 방식과 개발 습관을 익혔습니다.</p>
+            </li>
+          </ol>
+          <p class="guide">
+            교체 가이드: 기간, 역할, 결과(수치 포함)를 중심으로 업데이트하세요.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal" data-reveal>
+        <div class="container">
+          <div class="contact-panel">
+            <h2>연락처</h2>
+            <p>협업 제안이나 채용 관련 문의는 아래 채널로 연락해주세요.</p>
+            <ul class="contact-list">
+              <li>
+                <a href="mailto:you@example.com">이메일: you@example.com</a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/your-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub: github.com/your-github</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/your-linkedin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn: linkedin.com/in/your-linkedin</a
+                >
+              </li>
+            </ul>
+            <p class="guide">
+              교체 가이드: 이메일/GitHub/LinkedIn 링크를 본인 계정으로 바꾸세요.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> Hong Gil-dong. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const currentYear = document.getElementById("current-year");
+        if (currentYear) currentYear.textContent = String(new Date().getFullYear());
+
+        const nav = document.getElementById("site-nav");
+        const navToggle = document.querySelector(".nav-toggle");
+
+        if (nav && navToggle) {
+          navToggle.addEventListener("click", () => {
+            const isOpen = nav.classList.toggle("is-open");
+            navToggle.setAttribute("aria-expanded", String(isOpen));
+          });
+
+          nav.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => {
+              nav.classList.remove("is-open");
+              navToggle.setAttribute("aria-expanded", "false");
+            });
+          });
+
+          document.addEventListener("click", (event) => {
+            const target = event.target;
+            if (!(target instanceof Node)) return;
+            if (!nav.contains(target) && !navToggle.contains(target)) {
+              nav.classList.remove("is-open");
+              navToggle.setAttribute("aria-expanded", "false");
+            }
+          });
+        }
+
+        const sectionNodes = document.querySelectorAll("main section[id]");
+        const navLinks = Array.from(document.querySelectorAll(".site-nav a"));
+
+        if ("IntersectionObserver" in window && sectionNodes.length > 0) {
+          const sectionObserver = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                const sectionId = entry.target.getAttribute("id");
+                navLinks.forEach((link) => {
+                  const active = link.getAttribute("href") === "#" + sectionId;
+                  link.classList.toggle("is-active", active);
+                  if (active) link.setAttribute("aria-current", "page");
+                  else link.removeAttribute("aria-current");
+                });
+              });
+            },
+            {
+              rootMargin: "-40% 0px -50% 0px",
+              threshold: 0,
+            }
+          );
+          sectionNodes.forEach((section) => sectionObserver.observe(section));
+        }
+
+        const revealItems = Array.from(document.querySelectorAll("[data-reveal]"));
+        if (revealItems.length === 0) return;
+
+        const reducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
+
+        if (reducedMotion) {
+          revealItems.forEach((item) => item.classList.add("is-visible"));
+          return;
+        }
+
+        if (!("IntersectionObserver" in window)) {
+          revealItems.forEach((item) => item.classList.add("is-visible"));
+          return;
+        }
+
+        const revealObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            });
+          },
+          { threshold: 0.2 }
+        );
+
+        revealItems.forEach((item, index) => {
+          item.style.setProperty("--reveal-delay", Math.min(index * 80, 320) + "ms");
+          revealObserver.observe(item);
+        });
+      })();
+    </script>
+  </body>
+</html>
